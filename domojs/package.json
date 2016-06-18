@@ -1,0 +1,15 @@
+{
+  "name": "ryuu.js",
+  "version": "2.4.1",
+  "description": "Ryuu JavaScript Utility Library",
+  "main": "domo.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-release": "^0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Geddes"
+}
