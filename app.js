@@ -6,6 +6,8 @@ var colors = {};
 // Total number of gifts. Gets set after data is parsed.
 var numGifts;
 
+var pathsLengthArray = [];
+
 // Fetch, parse, and visualize data.
 domo.get('/data/v1/sequences')
   .then(convertDataObjectToArray)
@@ -58,29 +60,6 @@ function createPaths(data) {
 
   // Sets the total number of gifts using the unique gift IDs
   numGifts = pathsArray.length;
-
-  function k_combinations(set, k) {
-    var i, j, l, combs;
-
-    for (i = 0; i < set[k].length; i++) {
-      counter[[set[k][i]]] = (counter[[set[k][i]]] || 0) + 1;
-    }
-
-    if (set[k].length > 1) {
-      for (j = 0; j < set[k].length - 1; j++) {
-        combs = [];
-        combs.push(set[k][j]);
-        for (l = 1; l < set[k].length; l++) {
-
-          if (l + j < set[k].length) {
-            combs.push(set[k][j + l]);
-            counter[combs] = (counter[combs] || 0) + 1;
-          }
-
-        }
-      }
-    }
-  }
 
   function combinations(set) {
     for (var k = 0; k < set.length; k++) {

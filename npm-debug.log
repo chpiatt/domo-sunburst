@@ -1,0 +1,237 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ryuu', '-g' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /usr/local/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+7 silly cache add args [ 'ryuu', null ]
+8 verbose cache add spec ryuu
+9 silly cache add parsed spec { raw: 'ryuu',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'ryuu',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed ryuu@*
+11 verbose addNamed "*" is a valid semver range for ryuu
+12 silly addNameRange { name: 'ryuu', range: '*', hasData: false }
+13 silly mapToRegistry name ryuu
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/ryuu
+17 verbose addNameRange registry:https://registry.npmjs.org/ryuu not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/ryuu
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 09:41:13
+21 verbose request id 08cfaac2bce7d2d9
+22 verbose etag "91P17YH9W5KOGPC2PI69B5LM8"
+23 http request GET https://registry.npmjs.org/ryuu
+24 http 200 https://registry.npmjs.org/ryuu
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"9R12YP6TWT8JCY93YXPEFH3OE"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '13201',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Fri, 24 Jun 2016 13:41:12 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-jfk1028-JFK',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1466775672.026990,VS0,VE521',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving ryuu to /Users/chris.piatt/.npm/registry.npmjs.org/ryuu/.cache.json
+27 silly addNameRange number 2 { name: 'ryuu', range: '*', hasData: true }
+28 silly addNameRange versions [ 'ryuu',
+28 silly addNameRange   [ '2.2.1',
+28 silly addNameRange     '2.2.2',
+28 silly addNameRange     '2.2.3',
+28 silly addNameRange     '2.2.4',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.2.7',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2',
+28 silly addNameRange     '2.4.3',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.6.0',
+28 silly addNameRange     '2.6.1',
+28 silly addNameRange     '2.6.2',
+28 silly addNameRange     '2.6.3',
+28 silly addNameRange     '2.6.4',
+28 silly addNameRange     '2.6.5',
+28 silly addNameRange     '2.6.6',
+28 silly addNameRange     '2.6.7',
+28 silly addNameRange     '2.6.8',
+28 silly addNameRange     '2.6.9',
+28 silly addNameRange     '2.6.10',
+28 silly addNameRange     '2.6.11',
+28 silly addNameRange     '2.6.12',
+28 silly addNameRange     '2.6.13',
+28 silly addNameRange     '2.6.14',
+28 silly addNameRange     '2.6.15',
+28 silly addNameRange     '2.6.16',
+28 silly addNameRange     '2.7.0',
+28 silly addNameRange     '2.8.0',
+28 silly addNameRange     '2.8.1',
+28 silly addNameRange     '2.8.2',
+28 silly addNameRange     '2.9.0',
+28 silly addNameRange     '2.9.1',
+28 silly addNameRange     '2.9.2',
+28 silly addNameRange     '2.9.3',
+28 silly addNameRange     '2.10.0',
+28 silly addNameRange     '2.10.1',
+28 silly addNameRange     '2.10.2',
+28 silly addNameRange     '2.11.0',
+28 silly addNameRange     '2.11.1',
+28 silly addNameRange     '2.11.2',
+28 silly addNameRange     '2.11.3',
+28 silly addNameRange     '2.11.4',
+28 silly addNameRange     '2.11.5',
+28 silly addNameRange     '2.11.6',
+28 silly addNameRange     '2.11.7',
+28 silly addNameRange     '2.11.8',
+28 silly addNameRange     '2.11.9',
+28 silly addNameRange     '2.11.10',
+28 silly addNameRange     '2.11.11',
+28 silly addNameRange     '2.11.12',
+28 silly addNameRange     '2.12.0',
+28 silly addNameRange     '2.12.1',
+28 silly addNameRange     '2.12.2',
+28 silly addNameRange     '2.12.3',
+28 silly addNameRange     '2.13.0',
+28 silly addNameRange     '2.13.1',
+28 silly addNameRange     '2.13.2',
+28 silly addNameRange     '2.13.3',
+28 silly addNameRange     '2.13.4',
+28 silly addNameRange     '2.13.5',
+28 silly addNameRange     '2.13.6',
+28 silly addNameRange     '2.13.7',
+28 silly addNameRange     '2.13.8',
+28 silly addNameRange     '2.14.0',
+28 silly addNameRange     '2.14.1',
+28 silly addNameRange     '2.14.2',
+28 silly addNameRange     '2.14.3',
+28 silly addNameRange     '2.14.4',
+28 silly addNameRange     '2.14.5',
+28 silly addNameRange     '2.14.6',
+28 silly addNameRange     '2.14.7',
+28 silly addNameRange     '2.14.8',
+28 silly addNameRange     '2.14.9',
+28 silly addNameRange     '2.15.0',
+28 silly addNameRange     '2.16.0',
+28 silly addNameRange     '2.16.1',
+28 silly addNameRange     '2.16.2',
+28 silly addNameRange     '2.17.0',
+28 silly addNameRange     '2.17.1',
+28 silly addNameRange     '2.17.2',
+28 silly addNameRange     '2.17.3',
+28 silly addNameRange     '2.17.4' ] ]
+29 silly addNamed ryuu@2.17.4
+30 verbose addNamed "2.17.4" is a plain semver version for ryuu
+31 silly mapToRegistry name ryuu
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/ryuu
+35 verbose addRemoteTarball https://registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz',
+36 verbose addRemoteTarball   '91afe272439bf404c1a827989eb09255dc058ab3' ]
+37 info retry fetch attempt 1 at 09:41:14
+38 info attempt registry request try #1 at 09:41:14
+39 http fetch GET https://registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz
+40 http fetch 200 https://registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz
+41 silly fetchAndShaCheck shasum 91afe272439bf404c1a827989eb09255dc058ab3
+42 verbose addTmpTarball /var/folders/z4/2bv5qdy11qn85vxxl63_t575wh9gcp/T/npm-21580-b76ac9cf/registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for ryuu@2.17.4
+44 silly cache afterAdd ryuu@2.17.4
+45 verbose afterAdd /Users/chris.piatt/.npm/ryuu/2.17.4/package/package.json not in flight; writing
+46 verbose afterAdd /Users/chris.piatt/.npm/ryuu/2.17.4/package/package.json written
+47 silly install resolved [ { name: 'ryuu',
+47 silly install resolved     version: '2.17.4',
+47 silly install resolved     bin: { domo: './bin/runner' },
+47 silly install resolved     scripts: { changelog: 'conventional-changelog -i CHANGELOG.md -s -r 0 -u' },
+47 silly install resolved     dependencies:
+47 silly install resolved      { async: '~1.3.0',
+47 silly install resolved        babel: '5.8.12',
+47 silly install resolved        bluebird: '~2.3.2',
+47 silly install resolved        'browser-sync': '^2.7.9',
+47 silly install resolved        chalk: '~0.5.1',
+47 silly install resolved        chokidar: '^1.0.1',
+47 silly install resolved        'cli-table': '^0.3.1',
+47 silly install resolved        commander: '2.9.0',
+47 silly install resolved        'extract-zip': '^1.0.3',
+47 silly install resolved        'form-data': '~0.1.4',
+47 silly install resolved        'fs-extra': '~0.11.1',
+47 silly install resolved        glob: '~4.0.5',
+47 silly install resolved        inquirer: '0.6.0',
+47 silly install resolved        koa: '^0.21.0',
+47 silly install resolved        'koa-bodyparser': '2.0.1',
+47 silly install resolved        'koa-mount': '^1.3.0',
+47 silly install resolved        'koa-router': '^5.1.2',
+47 silly install resolved        'koa-static': '^1.4.9',
+47 silly install resolved        lodash: '~2.4.1',
+47 silly install resolved        portfinder: '^0.4.0',
+47 silly install resolved        q: '~1.0.1',
+47 silly install resolved        'raw-body': '^2.1.6',
+47 silly install resolved        request: '^2.42.0',
+47 silly install resolved        'ryuu-client': '2.8.0',
+47 silly install resolved        'ryuu.js': 'latest',
+47 silly install resolved        semver: '~4.1.0',
+47 silly install resolved        shelljs: '^0.5.1',
+47 silly install resolved        slug: '^0.9.1',
+47 silly install resolved        'source-map-support': '^0.3.2',
+47 silly install resolved        superagent: '~0.18.1',
+47 silly install resolved        validator: '~3.35.0' },
+47 silly install resolved     devDependencies:
+47 silly install resolved      { 'conventional-changelog-cli': '1.2.0',
+47 silly install resolved        grunt: '^0.4.5',
+47 silly install resolved        'grunt-release': '0.13.0',
+47 silly install resolved        'grunt-shell': '1.3.0' },
+47 silly install resolved     gitHead: 'cbc8d05f77679edf88db06315ebaedb173b7e4c0',
+47 silly install resolved     description: 'A command line interface to the App Dev Studio.',
+47 silly install resolved     _id: 'ryuu@2.17.4',
+47 silly install resolved     _shasum: '91afe272439bf404c1a827989eb09255dc058ab3',
+47 silly install resolved     _from: 'ryuu@*',
+47 silly install resolved     _npmVersion: '3.3.6',
+47 silly install resolved     _nodeVersion: '5.0.0',
+47 silly install resolved     _npmUser: { name: 'geddski', email: 'davidcgeddes@gmail.com' },
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: '91afe272439bf404c1a827989eb09255dc058ab3',
+47 silly install resolved        tarball: 'https://registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz' },
+47 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+47 silly install resolved     _npmOperationalInternal:
+47 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+47 silly install resolved        tmp: 'tmp/ryuu-2.17.4.tgz_1466627323507_0.06241870252415538' },
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/ryuu/-/ryuu-2.17.4.tgz' } ]
+48 info install ryuu@2.17.4 into /usr/local/lib
+49 info installOne ryuu@2.17.4
+50 verbose installOne of ryuu to /usr/local/lib not in flight; installing
+51 warn locking Error: EACCES, open '/Users/chris.piatt/.npm/_locks/ryuu-8536477a8ce7ecb8.lock'
+51 warn locking     at Error (native)
+51 warn locking  /Users/chris.piatt/.npm/_locks/ryuu-8536477a8ce7ecb8.lock failed { [Error: EACCES, open '/Users/chris.piatt/.npm/_locks/ryuu-8536477a8ce7ecb8.lock']
+51 warn locking   errno: -13,
+51 warn locking   code: 'EACCES',
+51 warn locking   path: '/Users/chris.piatt/.npm/_locks/ryuu-8536477a8ce7ecb8.lock' }
+52 verbose stack Error: Attempt to unlock /usr/local/lib/node_modules/ryuu, which hasn't been locked
+52 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+52 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+52 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+52 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+52 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+52 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+52 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+53 verbose cwd /Users/chris.piatt/Workspace/Modea/domoapps/sunburst-diagram
+54 error Darwin 14.5.0
+55 error argv "node" "/usr/local/bin/npm" "install" "ryuu" "-g"
+56 error node v0.12.4
+57 error npm  v2.10.1
+58 error Attempt to unlock /usr/local/lib/node_modules/ryuu, which hasn't been locked
+59 error If you need help, you may report this error at:
+59 error     <https://github.com/npm/npm/issues>
+60 verbose exit [ 1, true ]
