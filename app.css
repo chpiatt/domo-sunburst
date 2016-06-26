@@ -17,10 +17,18 @@ body {
 #sidebar {
   float: right;
   width: 100px;
-  margin: 36px 36px 0px 0px;
+  margin: 36px 36px 12px 0px;
   padding: 6px 6px 12px 6px;
   text-align: center;
   border: 1px solid #666;
+}
+
+#stats {
+  float: right;
+  font-size: 1.4em;
+  width: 100px;
+  margin: 0px 36px 12px 0px;
+  padding: 6px 6px 12px 0px;
 }
 
 #footer {

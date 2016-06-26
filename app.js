@@ -56,6 +56,7 @@ function createPaths(data) {
 
   Object.keys(paths).forEach(function(key, index) {
     pathsArray.push(paths[key]);
+    pathsLengthArray.push(paths[key].length);
   });
 
   // Sets the total number of gifts using the unique gift IDs
@@ -210,6 +211,10 @@ function createVisualization(json) {
     .on("mouseover", mouseover);
 
   d3.select("#numGifts").text(numGifts);
+  d3.select("#mean").text(d3.mean(pathsLengthArray).toFixed(1));
+  d3.select("#median").text(d3.median(pathsLengthArray));
+  d3.select("#max").text(d3.max(pathsLengthArray));
+  d3.select("#min").text(d3.median(pathsLengthArray));
 
   // Add the mouseleave handler to the bounding circle.
   d3.select("#container").on("mouseleave", mouseleave);
