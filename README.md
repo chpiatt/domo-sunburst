@@ -50,12 +50,15 @@ Must also have Git and Node.js installed:
 
 ### Windows Installation
 Install [Git](http://git-scm.com/downloads)
+
 The installer will also install "git bash", which you will use as your terminal when running all future commands.
 
 Install [Node.js](https://nodejs.org/)
+
 Verify that Node is properly installed on your path by opening your terminal and typing node --version.
 Dev Studio supports up to Node.js v6.x.x
 [npm](https://www.npmjs.com/)
+
 Make sure your firewall isn't blocking the npm registry by running "ping www.npmjs.com" in your terminal.
 
 ### Mac Installation
@@ -63,10 +66,13 @@ Make sure your firewall isn't blocking the npm registry by running "ping www.npm
 Install [Git](http://git-scm.com/downloads)
 
 Install Node.js via "brew install node" on OS X or via [download](https://nodejs.org/).
+
 Verify that Node is properly installed on your path by opening your terminal and typing node --version.
 Dev Studio supports up to Node.js v6.x.x
+
 Accept the XCode License "sudo xcodebuild -license"
 [npm](https://www.npmjs.com/)
+
 Make sure your firewall isn't blocking the npm registry by running "ping www.npmjs.com" in your terminal.
 
 ## Additional Information
