@@ -46,6 +46,7 @@ You can then find the app in the 'Asset Library' and begin to build cards to ana
 
 * Must have a license for [Domo Business Cloud](https://www.domo.com/pricing)
 * Must also have Git and Node.js installed:
+
 ### Windows Installation
 Install [Git](http://git-scm.com/downloads)
 The installer will also install "git bash", which you will use as your terminal when running all future commands.
