@@ -3,8 +3,8 @@
 var potential_colors = ["#5687d1", "#7b615c", "#de783b", "#6ab975", "#a173d1", "#bbbbbb", "#cccf6c", "#4C0000", "#0C4C07", "#61035D", "#3493A0", "#245604", "#560419", "#7ba5e4", "#df61be", "#6165df", "#dc8850", "#61df88", "#976ae1", "#e16a9a", "#b3e16a"];
 var colors = {};
 
-// Total number of gifts. Gets set after data is parsed.
-var numGifts;
+// Total number of conversions. Gets set after data is parsed.
+var numConversions;
 
 var pathsLengthArray = [];
 
@@ -59,8 +59,8 @@ function createPaths(data) {
     pathsLengthArray.push(paths[key].length);
   });
 
-  // Sets the total number of gifts using the unique gift IDs
-  numGifts = pathsArray.length;
+  // Sets the total number of conversions using the unique conversion IDs
+  numConversions = pathsArray.length;
 
   function combinations(set) {
     for (var k = 0; k < set.length; k++) {
@@ -210,7 +210,7 @@ function createVisualization(json) {
     .style("opacity", 1)
     .on("mouseover", mouseover);
 
-  d3.select("#numGifts").text(numGifts);
+  d3.select("#numConversions").text(numConversions);
   d3.select("#mean").text(d3.mean(pathsLengthArray).toFixed(1));
   d3.select("#median").text(d3.median(pathsLengthArray));
   d3.select("#max").text(d3.max(pathsLengthArray));
@@ -226,11 +226,11 @@ function createVisualization(json) {
   function mouseover(d) {
 
     var percentage = (100 * d.value / totalSize).toPrecision(3);
-    var numGiftsString;
+    var numConversionsString;
     if (d.value == 1) {
-      numGiftsString = d.value + " Gift";
+      numConversionsString = d.value + " Conversion";
     } else {
-      numGiftsString = d.value + " Gifts";
+      numConversionsString = d.value + " Conversions";
     }
     var percentageString = percentage + "%";
     if (percentage < 0.1) {
@@ -242,7 +242,7 @@ function createVisualization(json) {
 
     d3.select("#explanation")
       .style("visibility", "");
-    d3.select("#giftsInSet").text(numGiftsString)
+    d3.select("#conversionsInSet").text(numConversionsString)
       .style("visibility", "");
 
     var sequenceArray = getAncestors(d);
@@ -281,7 +281,7 @@ function createVisualization(json) {
 
     d3.select("#explanation")
       .style("visibility", "hidden");
-    d3.select("#giftsInSet")
+    d3.select("#conversionsInSet")
       .style("visibility", "hidden");
   }
 
