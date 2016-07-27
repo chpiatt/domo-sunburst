@@ -1,5 +1,5 @@
 # Domo Sunburst Visual
-![sunburst](http://g.recordit.co/W7FXFvdVPI.gif)
+![sunburst](http://g.recordit.co/x8a9K6V8rY.gif)
 
 Sunburst visualization for Domo BI tool.  This visualization is useful for path analysis.
 
@@ -44,8 +44,8 @@ You can then find the app in the 'Asset Library' and begin to build cards to ana
 
 ### Prerequisites
 
-Must have a license for [Domo Business Cloud](https://www.domo.com/pricing)
-Must also have Git and Node.js installed:
+* Must have a license for [Domo Business Cloud](https://www.domo.com/pricing)
+* Must also have Git and Node.js installed:
 ### Windows Installation
 Install [Git](http://git-scm.com/downloads)
 The installer will also install "git bash", which you will use as your terminal when running all future commands.
