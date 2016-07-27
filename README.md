@@ -42,10 +42,11 @@ domo publish
 You can then find the app in the 'Asset Library' and begin to build cards to analyze your conversion paths.
 
 
-### Prerequisites
+## Prerequisites
 
-* Must have a license for [Domo Business Cloud](https://www.domo.com/pricing)
-* Must also have Git and Node.js installed:
+Must have a license for [Domo Business Cloud](https://www.domo.com/pricing)
+
+Must also have Git and Node.js installed:
 
 ### Windows Installation
 Install [Git](http://git-scm.com/downloads)
