@@ -69,7 +69,7 @@ Accept the XCode License "sudo xcodebuild -license"
 [npm](https://www.npmjs.com/)
 Make sure your firewall isn't blocking the npm registry by running "ping www.npmjs.com" in your terminal.
 
-### Additional Information
+## Additional Information
 
 For more information on building and deploying Domo apps or to troubleshoot any issues, visit [Domo Dev Studio](https://developer.domo.com/docs/dev-studio/dev-studio-get-started)
 
